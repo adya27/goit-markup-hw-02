@@ -1,3 +1,107 @@
-:root{
-    --main-color = black;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* header */
+/* logo */
+
+.logo {
+  color: var(--title-text-color);
+  font-family: raleway;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo .accent {
+  color: var(--accent-color);
+}
+/* navigation */
+.list a {
+  color: var(--title-text-color);
+}
+.list a:hover {
+  color: var(--accent-color);
+}
+.hidden {
+  font-size: 0;
+}
+/* mail and phone */
+.contact_list a {
+  color: var(--title-text-color);
+}
+.contact_list a:hover,
+.contact_list a:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 900;
+}
+.hero_button {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border-radius: 7%;
+  padding: 10px;
+}
+.hero_button:hover,
+.hero_button:focus {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+  border-width: 3px;
+  border-color: var(--accent-color);
+  border-style: solid;
+}
+/* our adventages */
+/* hidden from navigation */
+.adventages img {
+  background-color: #f5f4fa;
+  padding: 10px 50px;
+  border-radius: 7%;
+  border-color: var(--accent-color);
+}
+.adventages img:hover,
+.adventages img:focus {
+  background-color: var(--accent-color);
+}
+.adventages h3 {
+  font-size: 16px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.adventages h3:hover,
+.adventages h3:focus {
+  color: var(--accent-color);
+}
+.adventages p {
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+.adventages p:hover,
+.adventages p:focus {
+  color: var(--accent-color);
+}
+/* what we are doing */
+.doing {
+  font-size: 36px;
+  color: var(--title-text-color);
 }

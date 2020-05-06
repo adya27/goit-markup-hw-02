@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="">Web Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="/index.html" class="logo"
+          ><span class="accent">Web</span> Studio</a
+        >
+        <ul class="list">
+          <li class="item"><a href="">Студия</a></li>
+          <li class="item"><a href="/portfolio.html">Портфолио</a></li>
+          <li class="item"><a href="">Контакты</a></li>
         </ul>
       </nav>
       <section>
         <!-- потом сделать невидимым -->
-        <h2>Свяжитесь с нами</h2>
-        <ul>
+        <h2 class="hidden">Свяжитесь с нами</h2>
+        <ul class="contact_list">
           <li>
             <a href="mailto:info@devstudio.com">
               <img src="./images/mail.svg" alt="почта" /> info@devstudio.com</a
@@ -36,13 +42,13 @@
     <main>
       <!-- It`s the hero, that our html layout deserves -->
       <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <h1 class="hero">эффективные решения для вашего бизнеса</h1>
+        <a class="hero_button" href="">Заказать услугу</a>
       </section>
       <!-- It`s Our advantages -->
       <section>
-        <h2>Наши преимущества</h2>
-        <ul>
+        <h2 class="hidden">Наши преимущества</h2>
+        <ul class="adventages">
           <li>
             <a href=""
               ><img src="./images/feature01.svg" alt="антенна" />
@@ -87,7 +93,7 @@
       </section>
       <!-- It`s what we are doing -->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="doing">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href=""
