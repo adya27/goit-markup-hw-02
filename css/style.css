@@ -66,12 +66,15 @@ body {
 .hero_button:focus {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
-  border-width: 3px;
+  border-width: 1px;
   border-color: var(--accent-color);
   border-style: solid;
 }
 /* our adventages */
 /* hidden from navigation */
+.adventages li {
+  display: inline-block;
+}
 .adventages img {
   background-color: #f5f4fa;
   padding: 10px 50px;
@@ -92,16 +95,101 @@ body {
 .adventages h3:focus {
   color: var(--accent-color);
 }
+
 .adventages p {
   color: var(--primary-text-color);
   font-weight: 500;
+  width: 278px;
+  height: 75px;
 }
 .adventages p:hover,
 .adventages p:focus {
   color: var(--accent-color);
 }
 /* what we are doing */
-.doing {
+.doing_title {
   font-size: 36px;
+  font-weight: 700;
   color: var(--title-text-color);
 }
+.doing_list li {
+  display: inline-block;
+}
+.doing_list h3 {
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  color: var(--primary-white-color);
+  width: 380px;
+  height: 70px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 70px;
+}
+.doing_list h3:hover,
+.doing_list h3:focus {
+  background-color: var(--accent-color);
+}
+
+/* our team */
+
+.team_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--title-text-color);
+}
+.team_list li {
+  display: inline-block;
+}
+.team_list h3 {
+  font-size: 16px;
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+.team_list p {
+  font-size: 16px;
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+.social_list li {
+  display: inline;
+}
+.social_list img {
+  padding: 10px;
+}
+.social_list img:hover,
+.social_list img:focus {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+/* our clients */
+
+.clients_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--title-text-color);
+}
+
+/* .clients_list a {
+  width: 175px;
+  height: 90px;
+} */
+.clients_list li {
+  display: inline-block;
+  padding: 30px 30px;
+  background-color: var(--primary-white-color);
+}
+.clients_list li:hover,
+.clients_list li:focus {
+  display: inline-block;
+  padding: 30px 30px;
+  background-color: var(--accent-color);
+}
+/* .clients_list img {
+  background-color: var(--primary-white-color);
+}
+.clients_list img:hover,
+.clients_list img:focus {
+  background-color: var(--accent-color);
+} */
