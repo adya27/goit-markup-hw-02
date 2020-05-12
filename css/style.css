@@ -412,9 +412,9 @@ footer .logo {
 .filter_button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  border-width: 1px;
+  /* border-width: 1px;
   border-color: var(--accent-color);
-  border-style: solid;
+  border-style: solid; */
 }
 
 /* .works_list li {
